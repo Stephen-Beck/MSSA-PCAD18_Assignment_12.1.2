@@ -11,7 +11,7 @@ public class ListNode {
  
 public class Solution
 {
-    public bool IsPalindrome(ListNode current)
+    public bool IsPalindrome(ListNode head)
     {
 
     }
@@ -19,16 +19,16 @@ public class Solution
 */
 
 /*
-Given the current of a singly linked list, return true if it is a palindrome or false otherwise.
+Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
 
     Example 1:
         (1)->(2)->(2)->(1)
-        Input: current = [1,2,2,1]
+        Input: head = [1,2,2,1]
         Output: true
 
     Example 2:
         (1)->(2)
-        Input: current = [1,2]
+        Input: head = [1,2]
         Output: false
 */
 
